@@ -1,4 +1,4 @@
-## Scripts
+## contData
 
 tools for the analysis of the radio continuum emission of a radio AGN.
 
@@ -7,7 +7,6 @@ tools for the analysis of the radio continuum emission of a radio AGN.
 
 `radiobs` needs to be in your PYTHONPATH.
 
-***
 ***
 
 **Core-pbCorrCvRegr**
