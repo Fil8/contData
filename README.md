@@ -20,12 +20,11 @@ _It does not conserve the flux per pixel_: use `SYNAGE++` for the same routine. 
 Used for the core/jet structure of the radio source.
 
 ***
-
 **Core-Fluxes**
 
 Measures the flux of the core/jet structure from a list of images (typically the pbcorr/convolved/regridded images from above)
 
-Saves to tables: 
+Saves the following: 
 - integratedFluxes.tbl'
 - synageFlCore.tbl -> readable by `SYNAGE++`
 
@@ -37,16 +36,16 @@ Plots:
 - Core CI + CIOff * Jet CI + CIOff 
 
 ***
-**Core-plots**
-
-Plots the innermost region of the radio source at different frequencies using aipy.
-
-***
 **Lobes-Fluxes**
 
 Measures the flux density of different components of a radio source (provided ds9 regions) at various frequencies.
 
 Outputs tables in `ascii` and `SYNAGE++` format.
+
+***
+**Noise**
+
+Measures noise in _Planck_ images and saves them to a table.
 
 ***
 **Lobes-Flux-ratio**
@@ -64,7 +63,6 @@ Plots flux density distribution for different component of the radio source
 - Flux density + model of E,W,C,J overlayed: `modAll1.png`
 - Flux density + model of single pixel: `pix_39_41.png`
 
-
 ***
 **SED-stats**
 
@@ -77,7 +75,6 @@ Determines different physical quantities given the results of `SYNAGE++` analysi
 - Plots Magnetic field vs source age: `tSyncOverTbuoyLobes.png`
 
 ***
-**Noise**
+**Core-plots**
 
-Measures noise in _Planck_ images and saves them to a table.
-
+Plots the innermost region of the radio source at different frequencies using aipy.
